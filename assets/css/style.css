@@ -1,0 +1,102 @@
+html,body{
+    background-image: url('../../assets/images/wormz.png');
+    font-family: 'Shadows Into Light', cursive;
+       
+}
+
+#initialDiv{
+    text-align: center;
+    background-image: url('../../assets/images/map.png');
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    height: 40%;
+    vertical-align: middle;
+}
+
+#initialtitle{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color: #004b4b;    
+}
+
+#panel{
+    background-color: #004b4b;
+    padding: 30px;
+}
+
+#gamePanel{
+    visibility: hidden;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.panel-body {
+    background-color: #fafafa;
+}
+
+u.dotted{
+    font-family: 'Acme', sans-serif; 
+    border-bottom: 5px dashed #999;
+    text-decoration: none; 
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+
+  #label{
+    font-family: 'Acme', sans-serif;
+    border-bottom: 2px dashed #999; 
+    text-decoration: underline; 
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1rem;
+  }
+
+#countryImage{
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#image{
+    text-align: center;
+    width: 100px;  
+}
+
+h3{
+    color: #004b4b;
+    text-align: right;
+    font-size: 30px;
+    padding: 15px;
+}
+
+ul{   
+    text-align: center;    
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{       
+    text-align: center;
+    display: inline; 
+    margin: 10px;
+    padding: 0px 15px 0px 0px; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+p{
+    float: left;
+    letter-spacing: 10px;
+    font-size: 30px;
+}

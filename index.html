@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="assets/javascript/game.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Acme|Poppins|Shadows+Into+Light" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="panel panel-default" id="panel">
+        <div class="panel-body" id="panel">
+            <div class="container">
+                <h1 id="title">HANGMAN</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="initialDiv">
+        <br/>
+        <br/>
+        <h1 id="initialtitle">Press any key to start!</h1>
+        <br/>
+        <br/>
+        <h1 id="initialtitle">Country Hangman!</h1>
+    </div>
+
+    <div class="row">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4>Current word</h4>
+                    <div id="word"></div>
+                    <!--label for="exampleInputEmail1" id="label">address</label-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="gamePanel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="assets/images/default.png" class="img-rounded" alt="Default" id="countryImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="assets/images/opportunities.png" class="img" alt="Default" id="image">
+                                </div>
+                                <div class="col-md-5">
+                                    <h3 id="opportunities">10</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="assets/images/win.png" class="img" alt="Default" id="image">
+                                </div>
+                                <div class="col-md-5">
+                                    <h3 id="countWin">0</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="assets/images/lose.png" class="img" alt="Default" id="image">
+                                </div>
+                                <div class="col-md-5">
+                                    <h3 id="countLoose">0</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h4>Letter already guessed</h4>
+                            <div id="letterGuessed"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
