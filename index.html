@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>HANGMAN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="assets/javascript/game.js"></script>
@@ -36,10 +36,10 @@
     <div id="initialDiv">
         <br/>
         <br/>
-        <h1 id="initialtitle">Press any key to start!</h1>
+        <h1 class="initialtitle">Press any key to start!</h1>
         <br/>
         <br/>
-        <h1 id="initialtitle">Country Hangman!</h1>
+        <h1 class="initialtitle">Country Hangman!</h1>
     </div>
 
     <div class="row">
@@ -48,11 +48,10 @@
                 <div class="panel-body">
                     <h4>Current word</h4>
                     <div id="word"></div>
-                    <!--label for="exampleInputEmail1" id="label">address</label-->
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 
     <div class="row" id="gamePanel">
         <div class="container">
@@ -60,7 +59,7 @@
                 <div class="col-md-10">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <img src="assets/images/default.png" class="img-rounded" alt="Default" id="countryImage">
+                            <img src="assets/images/countries.png" class="img-rounded" alt="Default" id="countryImage" height="300px">
                         </div>
                     </div>
                 </div>
@@ -106,6 +105,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="popup" class="popup"><h1>Press any key to start!</h1>
+        <h1 id="initialtitle" class="initialtitle">Country Hangman!</h1>
     </div>
 </body>
 
